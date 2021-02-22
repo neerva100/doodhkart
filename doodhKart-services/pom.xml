@@ -10,6 +10,7 @@
 		<groupId>com.utility.doodhKart</groupId>
 		<artifactId>doodhKart-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath />
 	</parent>
 
 	<name>DoodhKart Services</name>
