@@ -5,6 +5,7 @@
 
 	<groupId>com.services.doodhKart</groupId>
 	<artifactId>doodhKart-services</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<properties>
