@@ -16,7 +16,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 		DataSourceAutoConfiguration.class,
 		ErrorMvcAutoConfiguration.class
 })
-public class doodhkartServicesBoot extends SpringBootServletInitializer {
+public class DoodhkartServicesBoot extends SpringBootServletInitializer {
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
@@ -24,11 +24,11 @@ public class doodhkartServicesBoot extends SpringBootServletInitializer {
 	}
 	
 	private static SpringApplicationBuilder configureApplication(SpringApplicationBuilder builder) {
-		return builder.sources(doodhkartServicesBoot.class).bannerMode(Banner.Mode.OFF);
+		return builder.sources(DoodhkartServicesBoot.class).bannerMode(Banner.Mode.OFF);
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication.run(doodhkartServicesBoot.class, args);
+		SpringApplication.run(DoodhkartServicesBoot.class, args);
 	}
 
 }
